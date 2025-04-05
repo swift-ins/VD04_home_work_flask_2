@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <!-- Центрированная навигация -->
+    <nav class="nav-center">
+        <a href="/">Home</a>
+        <a href="/blog">Blog</a>
+        <a href="/contacts">Contacts</a>
+    </nav>
+
+    <div class="container">
+        <h1 class="red-title">КОНТАКТЫ</h1>
+
+        <img src="{{ url_for('static', filename='icon.jpg') }}" alt="Our Team" class="contact-photo">
+
+        <p class="blue-text">Email: trikarasja@inbox.lv</p>
+        <p class="blue-text">Phone: +371 26533829</p>
+    </div>
+
+</body>
+</html>
+
+
